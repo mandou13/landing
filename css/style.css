@@ -1,0 +1,116 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(https://viddanews.com.br/wp-content/uploads/2017/09/viddanews-banner-1024x363.png);
+  display: flex;
+  height: 500px;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.banner h1 {
+  font-size: 150px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  margin-bottom: 0px;
+}
+
+.button {
+  border: 0.5px solid white;
+  color: white;
+  padding: 10px;
+  background-color: black;
+  font-weight: bold;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.button:hover{
+  color: black;
+  background-color: pink;
+}
+
+.how{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.card {
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding: 20px;
+  margin: 20px;
+  width: 33%;
+}
+
+.card button {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-footer{
+  display:flex;
+  justify-content: center;
+
+}
+
+.howtext {
+  padding: 20px 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+.koalababy{
+  height: 100px;
+  width:100px;
+  border: 3px solid pink;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.footer {
+  background: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.footer a {
+  color: black;
+  padding: 7px;
+}
